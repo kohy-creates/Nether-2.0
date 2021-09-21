@@ -1,8 +1,0 @@
-{
-	"required":false,
-	"values": [
-		"#datapackutilities:passive",
-		"#datapackutilities:neutral",
-		"#datapackutilities:hostile"
-	]
-} 
