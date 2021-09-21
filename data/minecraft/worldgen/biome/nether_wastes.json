@@ -81,13 +81,25 @@
         "maxCount": 3
       }
     ],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:ghast": {
+      "energy_budget": 0.1,
+      "charge": 6.0
+    }
+  },
   "carvers": {
     "air": [
       "minecraft:nether_cave",

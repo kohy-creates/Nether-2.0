@@ -52,7 +52,7 @@
       },
       {
         "type": "minecraft:ghast",
-        "weight": 30,
+        "weight": 80,
         "minCount": 1,
         "maxCount": 1
       },
