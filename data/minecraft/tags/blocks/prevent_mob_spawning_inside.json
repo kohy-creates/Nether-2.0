@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:rails"
+    "#minecraft:rails",
+    "minecraft:powder_snow"
   ]
 }
