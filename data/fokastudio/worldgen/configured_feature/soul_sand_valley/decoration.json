@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 10,
+        "noise_factor": 15,
+        "noise_offset": 0.5
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 40
+                  },
+                  "max_inclusive": {
+                    "absolute": 128
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:random_patch",
+              "config": {
+                "can_replace": true,
+                "project": false,
+                "need_water": false,
+                "xspread": 7,
+                "yspread": 7,
+                "zspread": 7,
+                "tries": 360,
+                "state_provider": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 200,
+                      "data": {
+                        "Name": "minecraft:air"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:crying_obsidian"
+                      }
+                    },
+                    {
+                      "weight": 60,
+                      "data": {
+                        "Name": "minecraft:obsidian"
+                      }
+                    },
+                    {
+                      "weight": 40,
+                      "data": {
+                        "Name": "minecraft:shroomlight"
+                      }
+                    }
+                  ]
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                },
+                "whitelist": [
+                  {
+                    "Name": "minecraft:soul_soil"
+                  },
+                  {
+                    "Name": "minecraft:soul_sand"
+                  }
+                ],
+                "blacklist": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+execute if entity @e[tag=death_mark] as @e[tag=death_mark] run effect give @s weakness 1 1 true
+execute if entity @e[tag=death_mark] as @e[tag=death_mark] at @s run particle minecraft:dust_color_transition 0 0 0 1 1 0.15 0.25 ~ ~2.2 ~ 0 0 0 0 1 force
+execute if entity @e[tag=death_mark,tag=death_mark.status_effect] as @e[tag=death_mark,tag=death_mark.status_effect] run scoreboard players remove @s death_mark_timer 1
+execute if entity @e[tag=death_mark,tag=death_mark.status_effect] as @e[tag=death_mark,tag=death_mark.status_effect] if score @s death_mark_timer matches ..1 run function fokastudio:death_mark/remove

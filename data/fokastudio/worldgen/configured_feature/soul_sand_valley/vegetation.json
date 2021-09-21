@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 200,
+        "noise_factor": 200,
+        "noise_offset": 2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 0
+                  },
+                  "max_inclusive": {
+                    "absolute": 128
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:random_patch",
+              "config": {
+                "can_replace": false,
+                "project": false,
+                "need_water": false,
+                "xspread": 11,
+                "yspread": 11,
+                "zspread": 11,
+                "tries": 150,
+                "state_provider": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:nether_sprouts"
+                      }
+                    },
+                    {
+                      "weight": 5,
+                      "data": {
+                        "Name": "minecraft:warped_fungus"
+                      }
+                    },
+                    {
+                      "weight": 20,
+                      "data": {
+                        "Name": "minecraft:warped_roots"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "minecraft:crimson_fungus"
+                      }
+                    },
+                    {
+                      "weight": 60,
+                      "data": {
+                        "Name": "minecraft:crimson_roots",
+                        "Properties": {}
+                      }
+                    }
+                  ]
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                },
+                "whitelist": [
+                  {
+                    "Name": "minecraft:soul_soil"
+                  }
+                ],
+                "blacklist": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

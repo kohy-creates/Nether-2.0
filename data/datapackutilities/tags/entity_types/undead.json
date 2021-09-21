@@ -1,0 +1,11 @@
+{
+	"required":false,
+	"values": [
+		"#datapackutilities:zombies",
+		"#datapackutilities:skeletons",
+		"minecraft:phantom",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin",
+		"minecraft:wither"
+	]
+} 

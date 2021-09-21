@@ -1,0 +1,148 @@
+{
+    "surface_builder": "minecraft:crimson_forest",
+    "depth": 0.1,
+    "scale": 0.2,
+    "temperature": 2,
+    "downfall": 0,
+    "precipitation": "none",
+    "category": "nether",
+    "player_spawn_friendly": false,
+    "effects": {
+      "sky_color": 7254527,
+      "fog_color": 3343107,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "grass_color": 12132898,
+      "foliage_color": 10490643,
+      "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+      "mood_sound": {
+        "sound": "minecraft:ambient.crimson_forest.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.crimson_forest.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.crimson_forest",
+        "min_delay": 3000,
+        "max_delay": 6000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:crimson_spore"
+        },
+        "probability": 0.025
+      }
+    },
+    "starts": [
+      "minecraft:bastion_remnant",
+      "minecraft:bastion_remnant",
+      "minecraft:ruined_portal_nether",
+      "minecraft:fortress",
+      "minecraft:bastion_remnant"
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:zombified_piglin",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "minecraft:hoglin",
+          "weight": 9,
+          "minCount": 3,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:piglin",
+          "weight": 5,
+          "minCount": 3,
+          "maxCount": 4
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [],
+      "underground_water_creature": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": [
+        "minecraft:nether_cave",
+        "fokastudio:nether_noise_cave"
+      ]
+    },
+    "features": [
+      [
+        "fokastudio:crimson_forest/delta_1",
+        "fokastudio:crimson_forest/delta_2",
+        "fokastudio:crimson_forest/delta_3"
+      ],
+      [
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar"
+      ],
+      [
+        "minecraft:crimson_forest_vegetation",
+        "minecraft:crimson_forest_vegetation",
+        "minecraft:crimson_forest_vegetation"
+      ],
+      [
+        "minecraft:crimson_fungi",
+        "fokastudio:crimson_forest/bush",
+        "fokastudio:crimson_forest/tree_1",
+        "fokastudio:crimson_forest/tree_2"
+      ],
+      [
+        "minecraft:patch_fire",
+        "minecraft:spring_open"
+      ],
+      [
+        "minecraft:weeping_vines"
+      ],
+      [
+        "minecraft:ore_gold_nether",
+        "minecraft:ore_gold_nether",
+        "minecraft:ore_gold_nether",
+        "minecraft:ore_gold_nether"
+      ],
+      [
+        "minecraft:glowstone_extra",
+        "minecraft:glowstone",
+        "minecraft:ore_magma",
+        "minecraft:spring_closed",
+        "minecraft:ore_gravel_nether",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_debris_large",
+        "minecraft:ore_debris_small"
+      ],
+      [
+        "minecraft:spring_lava",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal"
+      ],
+      [
+        "fokastudio:crimson_forest/replace_blocks",
+        "fokastudio:crimson_forest/ceiling"
+      ]
+    ]
+  }
+  
