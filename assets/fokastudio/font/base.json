@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "file": "fokastudio:font/freezing.png",
+            "chars": ["\uF820"],
+            "height": 1028,
+            "ascent": 150,
+            "type": "bitmap"
+        }
+    ]
+}
