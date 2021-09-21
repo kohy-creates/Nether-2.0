@@ -1,0 +1,9 @@
+{
+	"values":[
+		"#minecraft:buttons",
+		"#datapackutilities:pressure_plates",
+		"minecraft:lever",
+		"minecraft:detector_rail",
+		"minecraft:redstone_wire"
+	]
+}

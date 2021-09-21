@@ -1,0 +1,172 @@
+{
+    "surface_builder": "minecraft:soul_sand_valley",
+    "depth": 0.1,
+    "scale": 0.2,
+    "temperature": 2,
+    "downfall": 0,
+    "precipitation": "none",
+    "category": "nether",
+    "player_spawn_friendly": false,
+    "effects": {
+      "sky_color": 7254527,
+      "fog_color": 1787717,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "grass_color": 3759732,
+      "foliage_color": 2706263,
+      "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+      "mood_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "minecraft:music.nether.soul_sand_valley",
+        "min_delay": 3000,
+        "max_delay": 6000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.00625
+      }
+    },
+    "starts": [
+      "minecraft:nether_fossil",
+      "minecraft:nether_fossil",
+      "minecraft:nether_fossil",
+      "minecraft:fortress",
+      "minecraft:nether_fossil",
+      "minecraft:ruined_portal_nether",
+      "minecraft:ruined_portal_nether",
+      "minecraft:ruined_portal_nether",
+      "minecraft:bastion_remnant"
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:wither_skeleton",
+          "weight": 30,
+          "minCount": 1,
+          "maxCount": 3
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 50,
+          "minCount": 5,
+          "maxCount": 5
+        },
+        {
+          "type": "minecraft:ghast",
+          "weight": 5,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 1,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [],
+      "underground_water_creature": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {
+      "minecraft:ghast": {
+        "energy_budget": 0.1,
+        "charge": 0.7
+      }
+    },
+    "carvers": {
+      "air": [
+        "minecraft:nether_cave",
+        "fokastudio:nether_noise_cave"
+      ]
+    },
+    "features": [
+      [
+        "fokastudio:soul_sand_valley/nylium"
+      ],
+      [],
+      [
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar",
+        "minecraft:basalt_pillar"
+      ],
+      [],
+      [],
+      [
+        "minecraft:crimson_forest_vegetation",
+        "minecraft:warped_forest_vegetation",
+        "minecraft:crimson_forest_vegetation",
+        "minecraft:warped_forest_vegetation",
+        "minecraft:crimson_forest_vegetation",
+        "minecraft:warped_forest_vegetation"
+      ],
+      [
+        "minecraft:ore_blackstone",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_blackstone",
+        "minecraft:ore_blackstone"
+      ],
+      [
+        "minecraft:spring_open",
+        "minecraft:glowstone_extra",
+        "minecraft:glowstone",
+        "minecraft:ore_magma",
+        "minecraft:spring_closed",
+        "minecraft:ore_soul_sand",
+        "minecraft:ore_gravel_nether",
+        "minecraft:ore_gold_nether",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_debris_large",
+        "minecraft:ore_debris_small",
+        "minecraft:ore_debris_small",
+        "minecraft:ore_debris_small",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_quartz_nether"
+      ],
+      [
+        "minecraft:spring_lava",
+        "minecraft:spring_lava"
+      ],
+      [
+        "fokastudio:soul_sand_valley/fire",
+        "fokastudio:soul_sand_valley/vegetation",
+        "fokastudio:soul_sand_valley/wart",
+        "fokastudio:soul_sand_valley/columns",
+        "fokastudio:soul_sand_valley/tree",
+        "fokastudio:soul_sand_valley/tree",
+        "fokastudio:soul_sand_valley/vines",
+        "fokastudio:soul_sand_valley/vines_2",
+        "fokastudio:soul_sand_valley/decoration",
+        "fokastudio:soul_sand_valley/fortress"
+      ]
+    ]
+  }
+  

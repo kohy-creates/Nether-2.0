@@ -1,0 +1,10 @@
+{
+	"values":[
+		"#datapackutilities:non-solid",
+		"#datapackutilities:colors/glass",
+		"#minecraft:leaves",
+		"minecraft:glowstone",
+		"minecraft:sea_lantern",
+		"minecraft:piston_head"
+	]
+}

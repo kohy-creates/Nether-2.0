@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:strider",
+    "minecraft:blaze",
+    "minecraft:magma_cube",
+    "#datapackutilities:nether"
+  ]
+}

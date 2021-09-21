@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 128
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:cave_surface",
+            "config": {
+              "surface": "ceiling",
+              "floor_to_ceiling_search_range": 60
+            }
+          },
+          "feature": {
+            "type": "minecraft:weeping_vines",
+            "config": {}
+          }
+        }
+      }
+    }
+  }
+  
