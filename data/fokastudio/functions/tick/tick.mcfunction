@@ -5,3 +5,4 @@ execute if entity @a[tag=fortress,predicate=!fokastudio:in_fortress] as @a[tag=f
 
 execute if entity @a[tag=fortress] as @a[tag=fortress] run function fokastudio:fortress_buff
 execute if entity @a[tag=death_mark,tag=!death_mark.status_effect,predicate=!fokastudio:in_fortress] as @a[tag=death_mark,tag=!death_mark.status_effect,predicate=!fokastudio:in_fortress] run tag @s remove death_mark
+
