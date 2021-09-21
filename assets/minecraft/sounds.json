@@ -1,0 +1,146 @@
+{
+  "block.portal.ambient": {
+    "sounds": [
+      {
+        "attenuation_distance": 22,
+        "name": "portal/portal"
+      }
+    ],
+    "subtitle": "subtitles.block.portal.ambient",
+    "volume": 1
+  },
+  "block.portal.travel": {
+    "sounds": [
+      "portal/travel"
+    ],
+    "volume": 1
+  },
+  "block.portal.trigger": {
+    "sounds": [
+      "portal/trigger"
+    ],
+    "subtitle": "subtitles.block.portal.trigger",
+    "volume": 1
+  },
+  "music.game.nether": {
+    "category": "music",
+    "sounds": []
+  },
+  "music.nether.basalt_deltas": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music/game/nether/kyoto",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "entity.ghast.ambient": {
+    "sounds": [
+      "mob/ghast/moan1",
+      "mob/ghast/moan2",
+      "mob/ghast/moan3",
+      "mob/ghast/moan4",
+      "mob/ghast/moan5",
+      "mob/ghast/moan6",
+      "mob/ghast/moan7"
+    ],
+    "subtitle": "subtitles.entity.ghast.ambient",
+    "volume": 6,
+    "pitch": 1
+  },
+  "entity.ghast.death": {
+    "sounds": [
+      "mob/ghast/death"
+    ],
+    "subtitle": "subtitles.entity.ghast.death"
+  },
+  "entity.ghast.hurt": {
+    "sounds": [
+      "mob/ghast/scream1",
+      "mob/ghast/scream2",
+      "mob/ghast/scream3",
+      "mob/ghast/scream4",
+      "mob/ghast/scream5"
+    ],
+    "subtitle": "subtitles.entity.ghast.hurt",
+    "volume": 6,
+    "pitch": 1
+  },
+  "entity.ghast.scream": {
+    "sounds": [
+      "mob/ghast/affectionate_scream"
+    ],
+    "subtitle": "Ghasts screams",
+    "volume": 6,
+    "pitch": 1
+  },
+  "entity.ghast.shoot": {
+    "sounds": [
+      "mob/ghast/fireball4"
+    ],
+    "subtitle": "subtitles.entity.ghast.shoot",
+    "volume": 2,
+    "pitch": 1
+  },
+  "entity.ghast.warn": {
+    "sounds": [
+      "mob/ghast/charge"
+    ],
+    "subtitle": "subtitles.entity.ghast.shoot",
+    "volume": 2,
+    "pitch": 1
+  }
+}
