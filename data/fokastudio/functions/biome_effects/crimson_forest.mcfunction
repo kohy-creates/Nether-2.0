@@ -1,0 +1,2 @@
+execute if predicate fokastudio:chance/50_percent run particle wax_on ~ ~ ~ 22 22 22 0 3 normal @s
+execute if predicate fokastudio:chance/50_percent run particle dust_color_transition 0.173 0.031 0.031 3 0.439 0.118 0.118 ~ ~ ~ 22 22 22 0 3 normal @s
