@@ -51,6 +51,7 @@
     ],
     "spawners": {
       "monster": [
+
         {
           "type": "minecraft:wither_skeleton",
           "weight": 60,
@@ -81,7 +82,7 @@
       "ambient": [
         {
           "type": "minecraft:ghast",
-          "weight": 150,
+          "weight": 450,
           "minCount": 1,
           "maxCount": 1
         }
@@ -94,7 +95,7 @@
     "spawn_costs": {
       "minecraft:ghast": {
         "energy_budget": 0.1,
-        "charge": 4.0
+        "charge": 1.2
       }
     },
     "carvers": {

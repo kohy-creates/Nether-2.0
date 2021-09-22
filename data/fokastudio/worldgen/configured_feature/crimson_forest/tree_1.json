@@ -69,7 +69,7 @@
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
                   {
-                    "weight": 10,
+                    "weight": 20,
                     "data": {
                       "Name": "minecraft:oak_leaves",
                       "Properties": {
@@ -79,7 +79,7 @@
                     }
                   },
                   {
-                    "weight": 5,
+                    "weight": 10,
                     "data": {
                       "Name": "minecraft:dark_oak_leaves",
                       "Properties": {
@@ -95,7 +95,7 @@
                     }
                   },
                   {
-                    "weight": 15,
+                    "weight": 30,
                     "data": {
                       "Name": "minecraft:nether_wart_block"
                     }
@@ -138,8 +138,12 @@
                       {
                         "weight": 2,
                         "data": {
-                          "Name": "minecraft:smooth_basalt"
+                          "Name": "minecraft:basalt",
+                          "Properties":{
+                            "axis": "y"
+                          }
                         }
+                    
                       },
                       {
                         "weight": 8,

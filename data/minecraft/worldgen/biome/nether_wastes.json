@@ -84,7 +84,7 @@
     "ambient": [
       {
         "type": "minecraft:ghast",
-        "weight": 50,
+        "weight": 250,
         "minCount": 1,
         "maxCount": 1
       }
@@ -97,7 +97,7 @@
   "spawn_costs": {
     "minecraft:ghast": {
       "energy_budget": 0.1,
-      "charge": 6.0
+      "charge": 4.3
     }
   },
   "carvers": {

@@ -135,7 +135,7 @@
                       }
                     },
                     {
-                      "weight": 14,
+                      "weight": 46,
                       "data": {
                         "Name": "minecraft:cave_vines_plant",
                         "Properties": {
@@ -169,7 +169,7 @@
                         }
                       },
                       {
-                        "weight": 14,
+                        "weight": 46,
                         "data": {
                           "Name": "minecraft:cave_vines",
                           "Properties": {

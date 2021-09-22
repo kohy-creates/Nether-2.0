@@ -69,7 +69,7 @@
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
                   {
-                    "weight": 1,
+                    "weight": 4,
                     "data": {
                       "Name": "minecraft:jungle_leaves",
                       "Properties": {
@@ -79,7 +79,7 @@
                     }
                   },
                   {
-                    "weight": 15,
+                    "weight": 30,
                     "data": {
                       "Name": "minecraft:oak_leaves",
                       "Properties": {
@@ -89,7 +89,7 @@
                     }
                   },
                   {
-                    "weight": 5,
+                    "weight": 15,
                     "data": {
                       "Name": "minecraft:dark_oak_leaves",
                       "Properties": {
@@ -136,7 +136,7 @@
                       {
                         "weight": 4,
                         "data": {
-                          "Name": "minecraft:rooted_dirt"
+                          "Name": "minecraft:dirt"
                         }
                       },
                       {

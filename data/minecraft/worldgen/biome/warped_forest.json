@@ -49,12 +49,6 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:stray",
-        "weight": 40,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:phantom",
         "weight": 20,
         "minCount": 3,
@@ -68,7 +62,7 @@
       },
       {
         "type": "minecraft:enderman",
-        "weight": 30,
+        "weight": 40,
         "minCount": 1,
         "maxCount": 6
       }
@@ -78,11 +72,18 @@
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
-    "misc": []
+    "misc": [
+      {
+        "type": "minecraft:stray",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
   },
   "spawn_costs": {
     "minecraft:enderman": {
-      "energy_budget": 0.12,
+      "energy_budget": 0.24,
       "charge": 1
     }
   },

@@ -51,12 +51,6 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:ghast",
-        "weight": 80,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "minecraft:magma_cube",
         "weight": 90,
         "minCount": 2,
@@ -71,13 +65,25 @@
         "maxCount": 2
       }
     ],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 150,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:ghast": {
+      "energy_budget": 0.1,
+      "charge": 3.0
+    }
+  },
   "carvers": {
     "air": [
       "minecraft:nether_cave",

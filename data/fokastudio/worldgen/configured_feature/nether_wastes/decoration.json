@@ -46,7 +46,7 @@
                     "type": "minecraft:weighted_state_provider",
                     "entries": [
                       {
-                        "weight": 7,
+                        "weight": 37,
                         "data": {
                           "Name": "minecraft:amethyst_cluster",
                           "Properties": {
@@ -56,7 +56,7 @@
                         }
                       },
                       {
-                        "weight": 13,
+                        "weight": 43,
                         "data": {
                           "Name": "minecraft:large_amethyst_bud",
                           "Properties": {
@@ -66,7 +66,7 @@
                         }
                       },
                       {
-                        "weight": 25,
+                        "weight": 55,
                         "data": {
                           "Name": "minecraft:medium_amethyst_bud",
                           "Properties": {
@@ -76,7 +76,7 @@
                         }
                       },
                       {
-                        "weight": 55,
+                        "weight": 85,
                         "data": {
                           "Name": "minecraft:small_amethyst_bud",
                           "Properties": {
@@ -86,7 +86,7 @@
                         }
                       },
                       {
-                        "weight": 40,
+                        "weight": 10,
                         "data": {
                           "Name": "minecraft:lantern",
                           "Properties": {
@@ -132,19 +132,19 @@
                         }
                       },
                       {
-                        "weight": 50,
+                        "weight": 150,
                         "data": {
                           "Name": "minecraft:dead_bush"
                         }
                       },
                       {
-                        "weight": 500,
+                        "weight": 600,
                         "data": {
                           "Name": "minecraft:grass"
                         }
                       },
                       {
-                        "weight": 150,
+                        "weight": 325,
                         "data": {
                           "Name": "minecraft:fern"
                         }

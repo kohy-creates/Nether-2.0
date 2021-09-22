@@ -69,7 +69,7 @@
               "type": "minecraft:weighted_state_provider",
               "entries": [
                 {
-                  "weight": 10,
+                  "weight": 40,
                   "data": {
                     "Name": "minecraft:oak_leaves",
                     "Properties": {
@@ -79,7 +79,7 @@
                   }
                 },
                 {
-                  "weight": 5,
+                  "weight": 25,
                   "data": {
                     "Name": "minecraft:dark_oak_leaves",
                     "Properties": {
@@ -91,11 +91,11 @@
                 {
                   "weight": 1,
                   "data": {
-                    "Name": "minecraft:glowstone"
+                    "Name": "minecraft:sea_lantern"
                   }
                 },
                 {
-                  "weight": 15,
+                  "weight": 35,
                   "data": {
                     "Name": "minecraft:warped_wart_block"
                   }
@@ -146,7 +146,7 @@
                     {
                       "weight": 7,
                       "data": {
-                        "Name": "minecraft:smooth_basalt"
+                        "Name": "minecraft:white_concrete_powder"
                       }
                     }
                   ]
