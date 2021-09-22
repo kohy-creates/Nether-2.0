@@ -19,6 +19,6 @@
     ]
   ],
   "rewards": {
-    "function": "fokastudio:mobs/piglin/barter"
+    "function": "fokastudio:mobs/piglin/barter_pickup"
   }
 }

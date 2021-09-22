@@ -10,7 +10,10 @@ execute if entity @a[tag=!initialized] as @a[tag=!initialized] run function foka
 
 execute if entity @e[type=marker] as @e[type=marker] at @s run particle dust 0.725 0.196 0.196 1 ~ ~ ~ 0 0 0 0 1 force @a[tag=debug]
 
-execute if entity @e[type=marker,tag=barter_util] as @e[type=marker,tag=barter_util] run function fokastudio:barter_util
+execute if entity @e[type=marker,tag=barter_util] as @e[type=marker,tag=barter_util] run function fokastudio:mobs/piglin/util
+
+execute if entity @e[type=item,tag=!aware,nbt={Item:{id:"minecraft:gold_ingot"}}] as @e[type=item,tag=!aware,nbt={Item:{id:"minecraft:gold_ingot"}}] run function fokastudio:mobs/piglin/tag_items
+execute if entity @e[type=item,tag=barter_util] as @e[type=item,tag=barter_util] at @s if entity @e[type=piglin,distance=..5] run function fokastudio:mobs/piglin/item_util
 
 execute if entity @e[type=piglin,scores={barter_timer=0..}] as @e[type=piglin,scores={barter_timer=0..}] run scoreboard players remove @s barter_timer 1
 execute if entity @e[type=piglin,scores={barter_timer=0}] as @e[type=piglin,scores={barter_timer=0}] run scoreboard players set @s piglin_rep 1
