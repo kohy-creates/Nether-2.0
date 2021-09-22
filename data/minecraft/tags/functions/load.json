@@ -1,5 +1,6 @@
 {
 	"values": [
-		"fokastudio:load/load"
+		"fokastudio:load/load",
+		"version-proxy:load"
 	]
 }

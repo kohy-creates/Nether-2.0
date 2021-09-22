@@ -16,4 +16,4 @@ execute if entity @e[type=item,tag=!aware,nbt={Item:{id:"minecraft:gold_ingot"}}
 execute if entity @e[type=item,tag=barter_util] as @e[type=item,tag=barter_util] at @s if entity @e[type=piglin,distance=..5] run function fokastudio:mobs/piglin/item_util
 
 execute if entity @e[type=piglin,scores={barter_timer=0..}] as @e[type=piglin,scores={barter_timer=0..}] run scoreboard players remove @s barter_timer 1
-execute if entity @e[type=piglin,scores={barter_timer=0}] as @e[type=piglin,scores={barter_timer=0}] run scoreboard players set @s piglin_rep 1
+execute if entity @e[type=piglin,scores={barter_timer=0}] as @e[type=piglin,scores={barter_timer=0}] run scoreboard players set @s piglin_rep 5
