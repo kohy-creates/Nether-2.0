@@ -6,7 +6,7 @@
           "type": "minecraft:score",
           "target": "this",
           "score": "piglin_rep",
-          "scale": 1
+          "scale": 0.20
         },
         "bonus_rolls": {
           "min": 0,
