@@ -5,10 +5,10 @@
       "y": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "above_bottom": 16
+          "above_bottom": 26
         },
         "max_inclusive": {
-          "below_top": 16
+          "below_top": 26
         }
       },
       "yScale": {
