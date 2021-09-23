@@ -138,7 +138,8 @@
         "minecraft:ore_blackstone",
         "minecraft:ore_quartz_nether",
         "minecraft:ore_debris_large",
-        "minecraft:ore_debris_small"
+        "minecraft:ore_debris_small",
+        "fokastudio:nether_geode"
       ],
       [
         "minecraft:spring_lava",
