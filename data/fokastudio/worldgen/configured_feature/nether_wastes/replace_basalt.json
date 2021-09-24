@@ -47,15 +47,6 @@
                     "state": {
                       "Name": "minecraft:netherrack"
                     }
-                  },
-                  {
-                    "target": {
-                      "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:gravel"
-                    },
-                    "state": {
-                      "Name": "minecraft:soul_sand"
-                    }
                   }
                 ]
               }
