@@ -109,19 +109,15 @@
   },
   "features": [
     [
+      "fokastudio:nether_wastes/beaches",
       "fokastudio:nether_wastes/columns"
     ],
     [
       "minecraft:basalt_pillar",
       "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
-      "minecraft:basalt_pillar",
       "minecraft:basalt_pillar"
     ],
     [
-      "minecraft:ore_magma",
-      "minecraft:ore_magma",
-      "minecraft:ore_magma",
       "minecraft:ore_magma",
       "minecraft:ore_magma"
     ],
@@ -129,7 +125,8 @@
     [],
     [
       "fokastudio:nether_wastes/mushrooms",
-      "fokastudio:nether_wastes/trees"
+      "fokastudio:nether_wastes/trees",
+      "fokastudio:nether_wastes/dead_tree"
     ],
     [
       "minecraft:ore_gravel_nether",
@@ -159,7 +156,8 @@
       "fokastudio:nether_wastes/replace_basalt",
       "fokastudio:nether_wastes/replace_basalt",
       "fokastudio:nether_wastes/replace_basalt",
-      "minecraft:patch_soul_fire"
+      "minecraft:patch_soul_fire",
+      "fokastudio:nether_wastes/beaches_vegetation"
     ]
   ]
 }

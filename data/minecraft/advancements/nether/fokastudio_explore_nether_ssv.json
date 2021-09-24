@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:soul_sand"
+      },
+      "title": {
+        "translate": "advancements.nether.explore_nether_ssv.title"
+      },
+      "description": {
+        "translate": "advancements.nether.explore_nether_ssv.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/explore_nether",
+    "criteria": {
+      "minecraft:soul_sand_valley": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:soul_sand_valley"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:soul_sand_valley"
+      ]
+    ],
+    "rewards": {}
+  }
+  
