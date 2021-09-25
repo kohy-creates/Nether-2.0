@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:music_disc_pigstep"
+      },
+      "title": {
+        "translate": "advancements.nether.obtain_pigstep.title"
+      },
+      "description": {
+        "translate": "advancements.nether.obtain_pigstep.description"
+      },
+      "frame": "goal"
+    },
+    "parent": "minecraft:nether/loot_bastion",
+    "criteria": {
+      "get_pigstep": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "location": {
+              "feature": "bastion_remnant"
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:music_disc_pigstep"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "get_pigstep"
+      ]
+    ]
+  }
+  

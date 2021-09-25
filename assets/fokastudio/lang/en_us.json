@@ -11,5 +11,17 @@
     "advancements.nether.explore_nether_nw.description": "Enter Nether Wastes",
 
     "advancements.nether.golden_armor.title": "Cover Me in Money!",
-    "advancements.nether.golden_armor.description": "Get a full set of Golden Armor"
+    "advancements.nether.golden_armor.description": "Get a full set of Golden Armor",
+
+    "advancements.nether.overkill.title": "Overkill",
+    "advancements.nether.overkill.description": "Deal 7 hearts of damage in one attack",
+
+    "advancements.nether.stayin_frosty.title": "Stayin' Frosty",
+    "advancements.nether.stayin_frosty.description": "Swim in Lava while having Fire Resistance effect",
+
+    "advancements.nether.overpowered.title": "Overpowered",
+    "advancements.nether.overpowered.description": "Consume an Enchanted Golden Apple",
+    
+    "advancements.nether.obtain_pigstep.title": "Pigs Step!",
+    "advancements.nether.obtain_pigstep.description": "Obtain a Pigstep Music Disc from a bastion"
 }
