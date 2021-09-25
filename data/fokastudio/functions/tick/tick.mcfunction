@@ -1,6 +1,8 @@
 execute if entity @e[tag=!aware,tag=!fortress,predicate=fokastudio:in_fortress] as @e[tag=!aware,tag=!fortress,predicate=fokastudio:in_fortress] run function fokastudio:fortress
-execute if entity @e[type=blaze,tag=!aware,tag=!dust_blaze,tag=!fortress_blaze,predicate=fokastudio:in_basalt_deltas] as @e[type=blaze,tag=!aware,tag=!dust_blaze,tag=!fortress_blaze,predicate=fokastudio:in_basalt_deltas] run function fokastudio:blazes/dust_blaze
+execute if entity @e[type=blaze,tag=!aware,tag=!dust_blaze,tag=!fortress_blaze,predicate=fokastudio:in_basalt_deltas] as @e[type=blaze,tag=!aware,tag=!dust_blaze,tag=!fortress_blaze,predicate=fokastudio:in_basalt_deltas] run function fokastudio:mobs/blaze/dust_blaze
+
 execute if entity @e[tag=dust_blaze] at @e[tag=dust_blaze] run particle falling_dust white_concrete_powder ~ ~1.2 ~ 0 0 0 0 1 normal
+
 execute if entity @a[tag=fortress,predicate=!fokastudio:in_fortress] as @a[tag=fortress,predicate=!fokastudio:in_fortress] run tag @s remove fortress
 
 execute if entity @a[tag=fortress] as @a[tag=fortress] run function fokastudio:fortress_buff
@@ -17,3 +19,5 @@ execute if entity @e[type=item,tag=barter_util] as @e[type=item,tag=barter_util]
 
 execute if entity @e[type=piglin,scores={barter_timer=0..}] as @e[type=piglin,scores={barter_timer=0..}] run scoreboard players remove @s barter_timer 1
 execute if entity @e[type=piglin,scores={barter_timer=0}] as @e[type=piglin,scores={barter_timer=0}] run scoreboard players set @s piglin_rep 5
+
+function fokastudio:mobs/wither/loop
