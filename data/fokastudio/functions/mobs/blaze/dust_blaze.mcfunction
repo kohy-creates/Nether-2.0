@@ -1,0 +1,3 @@
+data merge entity @s {DeathLootTable:"fokastudio:dust_blaze",CustomName:'{"text":"Dust Blaze","color":"#C5C5C5"}',ActiveEffects:[{Id:10,Duration:100000,Amplifier:0,Ambient:1b,ShowParticles:0b}],Attributes:[{Name:"generic.armor",Base:5d},{Name:"generic.attack_knockback",Base:0.15d},{Name:"generic.knockback_resistance",Base:0.4d},{Name:"generic.max_health",Base:30d}]}
+tag @s add dust_blaze
+tag @s add aware
