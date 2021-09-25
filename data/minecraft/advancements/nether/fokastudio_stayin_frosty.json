@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:12,Duration:1200}]}}"
+      "nbt": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:12,Duration:1200}]}"
     },
     "title": {
       "translate": "advancements.nether.stayin_frosty.title"
