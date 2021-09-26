@@ -23,5 +23,12 @@
     "advancements.nether.overpowered.description": "Consume an Enchanted Golden Apple",
     
     "advancements.nether.obtain_pigstep.title": "Pigs Step!",
-    "advancements.nether.obtain_pigstep.description": "Obtain a Pigstep Music Disc from a bastion"
+    "advancements.nether.obtain_pigstep.description": "Obtain a Pigstep Music Disc from a bastion",
+
+    "item.fokastudio.witherblade.name": "Witherblade",
+    "item.fokastudio.witherblade.lore.line1": "The Blade that was crafted by",
+    "item.fokastudio.witherblade.lore.line2": "Wither Skeletons themselves...",
+    "item.fokastudio.witherblade.lore.line3": "Inflicts Wither on attack",
+
+    "item.fokastudio.burnt_bone": "Burnt Bone"
 }

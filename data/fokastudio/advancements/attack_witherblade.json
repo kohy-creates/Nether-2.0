@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "attack_witerblade": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{FokaStudioItemType:\"witherblade\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "fokastudio:items/witherblade/attack"
+    }
+  }
+  
